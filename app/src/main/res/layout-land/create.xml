@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="85dp"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/meeting_title"
+                android:layout_width="match_parent"
+                android:layout_height="91dp"
+                android:hint="Enter Meeting Title"
+                android:inputType="text"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/id"
+            android:layout_width="match_parent"
+            android:layout_height="63dp"
+            android:hint="Enter Meeting ID"
+            android:inputType="text"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/meeting_date"
+                android:layout_width="327dp"
+                android:layout_height="match_parent"
+                android:clickable="true"
+                android:focusable="false"
+                android:hint="Enter meeting date"
+                android:padding="8dp"
+                android:textSize="16sp"
+                tools:ignore="TextSizeCheck,TouchTargetSizeCheck" />
+
+            <EditText
+                android:id="@+id/meeting_time"
+                android:layout_width="414dp"
+                android:layout_height="match_parent"
+                android:clickable="true"
+                android:focusable="false"
+                android:hint="Enter meeting time"
+                android:padding="8dp"
+                android:textSize="16sp"
+                tools:ignore="TextSizeCheck,TouchTargetSizeCheck" />
+
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/contact"
+            android:layout_width="143dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:background="@color/black"
+            android:backgroundTint="#FFFFFF"
+            android:padding="10dp"
+            android:text="Add contacts"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/displayContact"
+            android:layout_width="wrap_content"
+            android:layout_height="46dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="TextView" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="62dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/submit"
+            android:layout_width="259dp"
+            android:layout_height="wrap_content"
+            android:text="Create" />
+    </LinearLayout>
+
+</LinearLayout>

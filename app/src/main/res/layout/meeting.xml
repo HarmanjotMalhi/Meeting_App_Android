@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- item_meeting.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:padding="8dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/meetingTitle"
+        android:layout_width="141dp"
+        android:layout_height="wrap_content"
+        android:text="Meeting Title"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/meetingContact"
+        android:layout_width="102dp"
+        android:layout_height="wrap_content"
+        android:text="Contact"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/meetingDate"
+        android:layout_width="146dp"
+        android:layout_height="wrap_content"
+        android:text="Meeting Date"
+        android:textSize="14sp" />
+</LinearLayout>
